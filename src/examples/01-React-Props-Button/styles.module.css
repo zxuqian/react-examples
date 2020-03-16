@@ -15,3 +15,15 @@
   align-content: center;
   justify-items: center;
 }
+
+@media (max-width: 768px) {
+  .btnContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 440px) {
+  .btnContainer {
+    grid-template-columns: 1fr;
+  }
+}
