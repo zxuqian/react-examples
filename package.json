@@ -1,6 +1,6 @@
 {
   "name": "@zxuqian/react-examples",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -20,7 +20,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:lib": "NODE_ENV=production && rm -rf dist && mkdir dist && babel src/examples -d dist --copy-files",
-    "publish:lib": "yarn build:lib && npm publish --access public",
+    "publish:lib": "yarn build:lib && yarn publish --access public",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
