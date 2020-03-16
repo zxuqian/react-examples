@@ -1,4 +1,4 @@
-main {
+.mainContainer {
   width: 100vw;
   height: 100vh;
   background-color: #f2f2f2;
@@ -7,7 +7,7 @@ main {
   justify-content: center;
 }
 
-.btn__container {
+.btnContainer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 24px;
