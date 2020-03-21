@@ -37,7 +37,7 @@ export default function Gradient() {
           name="color1"
           className={styles.inputColor}
           value={color1}
-          onChange={handleInputChange}
+          onChange={handleInputChange} // 也可以直接写箭头函数
         />
       </div>
       <div className={styles.inputGroup}>
