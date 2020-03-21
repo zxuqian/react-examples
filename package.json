@@ -4,6 +4,19 @@
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",
+  "license": "MIT",
+  "homepage": "https://zxuqian.cn",
+  "author": {
+    "name": "Xuqian Zhang",
+    "url": "https://space.bilibili.com/302954484"
+  },
+  "keywords": [
+    "react",
+    "web",
+    "javascript",
+    "examples",
+    "react examples"
+  ],
   "files": [
     "dist",
     "README.md"
